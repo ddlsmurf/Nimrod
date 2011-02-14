@@ -24,7 +24,7 @@ int   aw_instance_callback_set (AW_CALLBACK c, callback_t callback);
 #  if defined(windows)
 #    define expatDll "expat.dll"
 #  elif defined(macosx)
-#    define expatDll "libexpat.dynlib"
+#    define expatDll "libexpat.dylib"
 #  else
 #    define expatDll "libexpat.so(.1|)"
 #  endif
@@ -213,7 +213,7 @@ typedef enum {
 #  if defined(windows)
 #    define iupdll "iup.dll"
 #  elif defined(macosx)
-#    define iupdll "libiup.dynlib"
+#    define iupdll "libiup.dylib"
 #  else
 #    define iupdll "libiup.so"
 #  endif

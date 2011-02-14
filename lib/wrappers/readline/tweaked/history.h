@@ -26,7 +26,7 @@
 #  if defined(windows)
 #    define historyDll "history.dll"
 #  elif defined(macosx)
-#    define historyDll "libhistory.dynlib"
+#    define historyDll "libhistory.dylib"
 #  else
 #    define historyDll "libhistory.so.6(|.0)"
 #  endif

@@ -15,6 +15,9 @@ elif defined(darwin):
   # linklib gobject-2.0.0
   # linklib gdk_pixbuf-2.0.0
   # linklib atk-1.0.0
+elif defined(macosx):
+  const
+    lib* = "libgtk-x11-2.0.dylib"
 else: 
   const 
     lib = "libgtk-x11-2.0.so(|.0)"

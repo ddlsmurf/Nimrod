@@ -27,7 +27,7 @@
 #  if defined(windows)
 #    define tildeDll "tilde.dll"
 #  elif defined(macosx)
-#    define tildeDll "libtilde.dynlib"
+#    define tildeDll "libtilde.dylib"
 #  else
 #    define tildeDll "libtilde.so.6(|.0)"
 #  endif

@@ -39,7 +39,7 @@ when not defined(pcreDll):
   when hostOS == "windows":
     const pcreDll = "pcre3.dll"
   elif hostOS == "macosx":
-    const pcreDll = "libpcre.dynlib"
+    const pcreDll = "libpcre.dylib"
   else:
     const pcreDll = "libpcre.so(.3|)"
 

@@ -15,6 +15,9 @@ elif defined(darwin):
   #    linklib atk-1.0.0
   const 
     lib = "gdk-x11-2.0"
+elif defined(macosx):
+  const
+    lib* = "libgdk-x11-2.0.dylib"
 else: 
   const 
     lib = "libgdk-x11-2.0.so(|.0)"

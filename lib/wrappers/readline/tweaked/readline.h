@@ -26,7 +26,7 @@
 #  if defined(windows)
 #    define readlineDll "readline.dll"
 #  elif defined(macosx)
-#    define readlineDll "libreadline.dynlib"
+#    define readlineDll "libreadline.dylib"
 #  else
 #    define readlineDll "libreadline.so.6(|.0)"
 #  endif
